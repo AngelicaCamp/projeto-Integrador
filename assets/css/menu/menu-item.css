@@ -1,0 +1,4 @@
+.menu__item {
+    padding: 10px;        /* espaçamento entre os item do menu */
+    list-style: none;     /* remover marcador */
+}
