@@ -1,6 +1,7 @@
 .menu {
     background: #BFBFBF;
     /* margin-top: 15%; */
-    position: fixed;
+    position: absolute;
+    
 }
 
