@@ -8,35 +8,60 @@
         <link rel="stylesheet" href="./assets/css/normalize.css">
         <link rel="stylesheet" href="./assets/css/reset.css">
         <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/css/menu/navbar.css">
+        <link rel="stylesheet" href="./assets/css/menu/nav-link.css">
+        <link rel="stylesheet" href="./assets/css/menu/nav-item.css">
+        <link rel="stylesheet" href="./assets/css/menu/navbar-nav.css">
         <link rel="stylesheet" href="./assets/css/menu/menu.css">
-        <link rel="stylesheet" href="./assets/css/menu/menu-item.css">
-        <link rel="stylesheet" href="./assets/css/menu/menu-link.css">
-        <link rel="stylesheet" href="./assets/css/menu/menu-lista.css">
+        <link rel="stylesheet" href="./assets/css/usuario/usuario.css">
+        <link rel="stylesheet" href="./assets/css/usuario/usuario__imagem.css">
+        <link rel="stylesheet" href="./assets/css/usuario/usuario__nome.css">
+
     </head>
     <body>
+        <!-- CABEÇALHO-->
         <header class="cabecalho">
-        <img src="" alt="logo" class="logotipo">
+            <img src="./assets/img/imagem-logo.PNG" alt="logo" class="logotipo">
 
-        <div class="usuario">
-            <div class="usuario__imagem">
-            <span class="usuario__nome">Usuário</span>
+            <!-- ÁREA DE LOGIN -USUÁRIO-->
+            <div class="usuario">
+                <div class="usuario__imagem">
+                <span class="usuario__nome">Usuário</span>
+                </div>
             </div>
-
-        </div>
             
         </header>
 
-        <aside>
-            <nav class="menu">
-                <ul class="menu__lista">
-                    <li class="menu__item"><a href="#" class="menu__link">Aluno</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Treino</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Aulas</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Planos</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Gerencial</a></li>
+        <!-- MENU-->
+        <section class="menu">
+            <!-- A vertical navbar -->
+            <nav class="navbar bg-light">
+
+                <!-- Itens do Menu -->
+                <ul class="navbar-nav" >
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Aluno</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Treino</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Aula</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Planos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gerencial</a>
+                    </li>
                 </ul>
             </nav>
-        </aside>
+        </section>
 
         <main>
             <section>
@@ -45,10 +70,5 @@
                 </form>
             </section>
         </main>
-
-        <footer>
-            <span>Copyright</span>
-            <p>Copyright</p>
-        </footer>
     </body>
 </html>

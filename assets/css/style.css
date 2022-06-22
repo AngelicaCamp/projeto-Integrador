@@ -1,12 +1,17 @@
+body {
+    height: 100vh;    
+}
+
 .cabecalho {
-    background: #062A40 ;
-    height: 136px;
-    position: relative;
+    background: #062A40 ;             /* cor de fundo cabeçalho */
+    height: 25%;                        /* altura cabeçalho */
+    width: 100%;
+    position: relative;                 /* posição */
+    display: flex;                      /* tranforma em Flex Container */
+    justify-content: space-between;     /* item distribuido com espaço no meio */
 }
 
 
-aside {
-    width: 20%;
-    
-}
+
+
 

@@ -1,0 +1,9 @@
+.usuario {
+    width: 250px;
+    height: 100px;
+    margin: 2rem 2rem 0 2rem;     /* superior, direita, inferior, esquerda */
+    background: yellow;
+    display: flex;
+    
+    
+}

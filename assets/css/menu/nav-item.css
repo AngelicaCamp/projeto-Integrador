@@ -1,0 +1,7 @@
+.nav-item {
+    border-radius: 10px;
+    background: #062A40;      /* cor de fundo item do menu */
+    margin: 0.5rem;             /* espaçamento entre os itens do menu */
+    width: 7rem ;               /* largura do item */
+    text-align: center;        /* centralizar texto
+}
