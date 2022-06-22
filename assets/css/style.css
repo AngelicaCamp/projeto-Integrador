@@ -4,7 +4,7 @@ body {
 
 .cabecalho {
     background: #062A40 ;             /* cor de fundo cabeçalho */
-    height: 25%;                        /* altura cabeçalho */
+    height: 20%;                        /* altura cabeçalho */
     width: 100%;
     position: relative;                 /* posição */
     display: flex;                      /* tranforma em Flex Container */
