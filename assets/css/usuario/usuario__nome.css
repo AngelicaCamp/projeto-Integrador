@@ -1,3 +1,4 @@
 .usuario__nome {
-    color: white;
+    color: #ECF229;             /* cor de texto */
+    font-weight: bold;            /* negrito */
 }
